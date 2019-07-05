@@ -1,0 +1,12 @@
+let mongoose = require('mongoose')
+
+let playlistSchema = new mongoose.Schema({
+  id: String,
+  title: String,
+  videos: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'video'
+  }]
+})
+
+module.exports = mongoose.model('playlist', playlistSchema)

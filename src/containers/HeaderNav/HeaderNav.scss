@@ -1,0 +1,32 @@
+
+@import '../../styles/shared.scss';
+/*
+  The .ui.menu is needed otherwise there's a more specific rule from semantic UI
+  we use this rule to tweak Semantic UI's CSS
+*/
+.ui.menu.top-menu {
+  .logo {
+    width: $sidebar-left-width;
+    color: #5f5f5f;
+  }
+
+  border: none;
+  .nav-container {
+    flex-grow: 1;
+    padding: 0;
+    background-color: #5f5f5f;
+    .search-input {
+      margin: auto;
+      padding-left: 0;
+      width: 33%;
+
+      form {
+        width: 100%;
+      }
+    }
+  }
+
+  .header-icon {
+    color: #5f5f5f;
+  }
+}
