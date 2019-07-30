@@ -1,5 +1,7 @@
 Checkout the app at: https://video-learner.herokuapp.com/
 
+This application does subtitle level search on a catalog of ML videos.
+
 ## Background
 
  As I was going to lectures in Machine Learning, I noticed that different professors explain the same concept in different ways. Sometimes one perspective might be more pertinent than another. So i decided to build an app that let's me do just that. 
