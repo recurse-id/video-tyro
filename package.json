@@ -12,7 +12,7 @@
     "request": "^2.88.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.5.12",
     "pm2": "^3.5.1",
     "ttml": "^0.1.0",
